@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			
+  			<div class="container-fluid">
+    			<h1 class="navbar-brand ms-5" href="#">MORZER</h1>
+  				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 	aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+    			<form>
+    			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      				<div class="navbar-nav me-5 fs-5">
+        				<a class="nav-link" aria-current="page" href="#back1">Home</a>
+       					 <a class="nav-link" href="#back3">Translator</a>
+       					 <a class="nav-link" href="#codeKey">CodeKey</a>
+       					 <a class="nav-link"  href="#aboutUs">About us</a>
+     				</div>
+   				</div>
+   			</form>
+  			</div>
+		</nav>
+		
+	</header>
+	<div class="row bg-image" id="back1">
+		<div class="d-flex align-items-center justify-content-center mt-auto" id="style1">MORZER</div>
+		<div class="text-center" id="style2">-- --- .-. --.. . .-.</div>
+	</div>
+	<div class="row text-black text-center" id="back2">
+		<div id="style3">Morzer Decoder</div>
+		<div class="fs-2">Энэхүү програм нь таны хүссэн үгийг Morse code болгон хувиргахад тусална.</div>
+	</div>
+	<div class="row bg-dark">
+			<div id="style4" class="mt-5">МОРЗ (MORSE code) гэж юу вэ?</div>
+			<div id="style5" class="fs-1 text-white">цэг '.' зураас '-' -аар илэрхийлэгддэг дохиолол.</div>
+			<div id="style4" class="mt-5">Морз код юунд хэрэгтэй вэ?</div>
+			<div id="style5" class="fs-1 text-white">Цахилгаан харилцаа холбооны анхдагчдын нэг нь яах аргагүй МОРЗ код. Энэхүү кодны тусламжтайгаар олон хүний амь нас аврагдаж аюулын дохиог дамжуулсаар ирсэн.</div>
+			<div id="style4" class="mt-5">Түүхийн тухайд: </div>
+			<div id="style5" class="fs-1 text-white">1836 онд анхлан Америк улсад  Samuel Morse, Joseph Henry, Alfred Vail нар зохиож байжээ.</div>
+	</div>
+	<div class="bg-dark">
+	<div class="row">
+		<div class="col-5">
+	<div id="carouselExampleCaptions" class="carousel slide w-75 h-100" data-bs-ride="carousel">
+  		<div class="carousel-indicators">
+    		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+   			 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+   			 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  		</div>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Alfred_Vail.GIF" class="d-block w-100" alt="...">
+      				<div class="carousel-caption d-none d-md-block">
+       				 <h5>Alfred Vail</h5>
+      				</div>
+    		</div>
+    		<div class="carousel-item">
+     			 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Joseph_Henry_%281879%29.jpg/330px-Joseph_Henry_%281879%29.jpg" class="d-block w-100" alt="...">
+      				<div class="carousel-caption d-none d-md-block">
+       				<h5>Joseph Henry</h5>
+      				</div>
+    		</div>
+    		<div class="carousel-item">
+      			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Samuel_Morse_1840.jpg/1200px-Samuel_Morse_1840.jpg" class="d-block w-100" alt="...">
+      				<div class="carousel-caption d-none d-md-block">
+        			<h5>Samuel Morse</h5>
+      		</div>
+   			</div>
+  		</div>
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    	  <span class="visually-hidden">Previous</span>
+  		</button>
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
+	</div>
+</div>
+		<div class="col w-25 h-50 " >
+				<video width=100% height=auto controls>
+ 					<source src="media/lightning.mp4" type="video/mp4">
+				</video>
+				<video width=100% height=auto controls>
+ 					<source src="media/machine.mp4" type="video/mp4">
+				</video>
+
+		</div>
+
+	</div>
+</div>
+		<div class="row bg-image" id="back2">
+			<div class="landing-text text-center">
+				<div class="fs-3">Хамгийн анх МОРЗ кодоор илгээгдэж байсан үг</div>
+				<div id="style3">"WHAT HATH GOD WROUGHT" </div>
+				<div class="fs-1 pb-5">.-- .... .- - .... .- - .... --. ... -.. .-- .-. --- ..- .-- .... -</div>
+			</div>
+		</div>
+		<div class="row bg-image" id="back3">
+			<div id="translator" class="text-white text-center">Morse Translator Program</div>
+			<video width=(500) height=(500) controls>
+ 					<source src="media/RecordMorse.mp4" type="video/mp4">
+				</video>
+		</div>
+			<div class="text-center fs-3 mb-5">
+				<a href="Morzer.jar"><br>Click here</a> if you want to try our program
+				<a href="#"><br>Here</a> is the Javadoc of Translator.
+				</div>
+		<div class="row">
+		<table class="table table-dark table-hover fs-3 bg-dark" id="codeKey">
+			<tr >
+				<td colspan="4">International morse code</td>
+				<td colspan="4">Cyrillic morse code</td>				
+			</tr>
+			<tr >
+				<td>A</td>
+				<td>  / .- /</td>
+				<td>N</td>
+				<td>  / -. /</td>
+				<td>А</td>
+				<td>  / .- /</td>
+				<td>Р</td>
+				<td>  / .-. /</td>
+				
+				
+			</tr>
+			<tr >
+				<td>B</td>
+				<td>  / -... /</td>
+				<td>O</td>
+				<td>  / --- /</td>
+				<td>Б</td>
+				<td>  / -... /</td>
+				<td>С</td>
+				<td>  / ... /</td>
+				
+				
+			</tr>
+			<tr >
+				<td>C</td>
+				<td>  / -.-. /</td>
+				<td>P</td>
+				<td>  / .--. /</td>
+				<td>В</td>
+				<td>  / .-- /</td>
+				<td>Т</td>
+				<td>  / - /</td>
+				
+				
+			</tr>
+			<tr >
+				<td>D</td>
+				<td>  / -.. /</td>
+				<td>Q</td>
+				<td>  / --.- /</td>
+				<td>Г</td>
+				<td>  / --. /</td>
+				<td>У</td>
+				<td>  / ..- /</td>
+				
+			</tr>
+			<tr >
+				<td>E</td>
+				<td>  / . /</td>
+				<td>R</td>
+				<td>  / .-. /</td>
+				<td>Д</td>
+				<td>  / -.. /</td>
+				<td>Ф</td>
+				<td>  / ..-. /</td>
+				
+			</tr>
+			<tr >
+				<td>F</td>
+				<td>  / ..-. /</td>
+				<td>S</td>
+				<td>  / ... /</td>
+				<td>Е</td>
+				<td>  / . /</td>
+				<td>Х</td>
+				<td>  / .... /</td>
+				
+			<tr >
+				<td>G</td>
+				<td>  / --. /</td>
+				<td>T</td>
+				<td>  / - /</td>
+				<td>Ж</td>
+				<td>  / ...- /</td>
+				<td>Ц</td>
+				<td>  / -.-. /</td>
+			</tr>
+			<tr >
+				<td>H</td>
+				<td>  / .... /</td>
+				<td>U</td>
+				<td>  / ..- /</td>
+				<td>З</td>
+				<td>  / --.. /</td>
+				<td>Ч</td>
+				<td>  / ---. /</td>
+				
+			</tr>
+			<tr >
+				<td>I</td>
+				<td>  / .. /</td>
+				<td>V</td>
+				<td>  / ...- /</td>
+				<td>И</td>
+				<td>  / .. /</td>
+				<td>Ш</td>
+				<td>  / ---- /</td>
+				
+			</tr>
+				
+			</tr>
+			<tr >
+				<td>J</td>
+				<td>  / .--- /</td>
+				<td>W</td>
+				<td>  / .-- /</td>
+				<td>Й</td>
+				<td>  / .--- /</td>
+				<td>Щ</td>
+				<td>  / --.- /</td>
+				
+			</tr>
+			<tr >
+				<td>K</td>
+				<td>  / -.- /</td>
+				<td>X</td>
+				<td>  / -..- /</td>
+				<td>К</td>
+				<td>  / -.- /</td>
+				<td>Ы,Ь</td>
+				<td>  / -.-- /</td>
+			</tr>
+			<tr >
+				<td>L</td>
+				<td>  / .-.. /</td>
+				<td>Y</td>
+				<td>  / -.-- /</td>
+				<td>Л</td>
+				<td>  / .-.. /</td>
+				<td>Ь,Ъ</td>
+				<td>  / -..- /</td>
+				
+			</tr>
+			<tr >
+				<td>M</td>
+				<td>  / -- /</td>
+				<td>Z</td>
+				<td>  / --.. /</td>
+				<td>М</td>
+				<td>  / -- /</td>
+				<td>Э</td>
+				<td>  / ..-.. /</td>
+				
+			</tr>
+		
+			<tr >
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Н</td>
+				<td>  / -. /</td>
+
+				<td>Ю</td>
+				<td>  / ..-- /</td>
+				
+				
+				
+			</tr>		
+			
+           <tr>
+           	<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>О</td>
+			<td>  / --- /</td>
+
+			<td>Я</td>
+			<td>  / .-.- /</td>
+			
+           	    
+				
+
+				
+           </tr>
+			<tr >
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+				<td>П</td>
+				<td>  / .--. /</td>
+				<td></td>
+				<td></td>
+
+				
+				
+			</tr>
+			<tr class="text-primary">
+				<td colspan="2">Зохиомол</td>
+				<td>Ү</td>
+				<td>  /.--..-/</td>
+				<td>Ө</td>
+				<td>  / ------ /</td>
+				<td>Ё</td>
+				<td>  / ....-- /</td>
+			</tr>
+			
+			
+  		<div class="text-center"><img width=100% src="https://i.redd.it/oe6k756f5g531.jpg"></div>
+		</table>
+	</div>
+		<div class="row bg-dark" id="aboutUs">
+			<div class="text-center text-white fs-1" id="style5">About Us</div>
+		</div>
+
+		<div class="row bg-white" id="aboutUs">
+		<div class="landing-text text-center">
+			<div id="style5">MORZER TEAM</div>
+		
+		<div class="row bg-dark">
+		<div class="col  mt-5 ms-4">
+			<div class="card" style="width: 18rem;">
+ 			 <img src="media/upic.png" class="card-img-top" alt="...">
+ 				 <div class="card-body">
+    				<h5 class="card-title">Urangua Khashtogtokh</h5>
+    				<p class="card-text">Khan Uul district</p>
+    				<a href="media/kkk/kkk/web.html" class="btn btn-light">Go website</a>
+ 				 </div>
+ 			</div>
+ 		</div>
+		<div class="col mt-5 ms-4">
+			<div class="card" style="width: 18rem;">
+ 			 <img src="media/b3pic.png" class="card-img-top" alt="...">
+ 				 <div class="card-body">
+    				<h5 class="card-title">Bulganchimeg Munkhjargal</h5>
+    				<p class="card-text">Bulgan province</p>
+    				<a href="media/bulgaWeb/bulgaWeb/personalWeb.html" class="btn btn-light">Go website</a>
+ 				 </div>
+			</div>
+		</div>
+		<div class="col mt-5 ms-4">
+			<div class="card" style="width: 18rem;">
+ 			 <img src="media/npic.jpg" class="card-img-top" alt="...">
+ 				 <div class="card-body">
+    				<h5 class="card-title">Namuulin Tuya</h5>
+    				<p class="card-text">Dornod province</p>
+    				<a href="#" class="btn btn-light">Go website</a>
+ 				 </div>
+ 			</div>
+ 		</div>
+		<div class="col mt-5 ms-4">
+			<div class="card" style="width: 18rem;">
+ 			 <img src="media/mpic.jpg" class="card-img-top" alt="...">
+ 				 <div class="card-body">
+    				<h5 class="card-title">Munkh-Orshikh Munkhbold</h5>
+    				<p class="card-text">Tuv province</p>
+    				<a href="WebM/WebM/web1.html" class="btn btn-light">Go website</a>
+ 				 </div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+</div>
+
+<div class="row bg-dark">
+	<div class="fs-3 text-white text-center mt-5 mb-5">MORZER баг нь мэдээллийн технологийн салбар дахь эмэгтэйчүүдийн оролцоог нэмэгдүүлэх охидын манлайллыг дэмжиж чадварлаг боловсон хүчинг бий болгох зорилгоор хэрэгжиж буй GIRLS CODE хөтөлбөрийн хүрээнд бүтээгдэж буй төслүүдийн нэг болно.
+	</div>
+</div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+ 			 <div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<img src="https://scontent.fuln2-1.fna.fbcdn.net/v/t1.6435-9/202693209_163020019186090_2991948464399439113_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=fgwgOHoiuSUAX-2sqEE&_nc_ht=scontent.fuln2-1.fna&oh=fb3319a2f589f1ffab827d0824fc7f72&oe=613035F1" alt="...">
+   			 	</div>
+    			<div class="carousel-item">
+      				<img src="https://scontent.fuln2-2.fna.fbcdn.net/v/t1.6435-9/225383278_194156146072477_3414349188027711115_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=973b4a&_nc_ohc=1A7gmkNAbg8AX9iYYoJ&_nc_ht=scontent.fuln2-2.fna&oh=8e856d34a54569a757fbb9cd1800f8cb&oe=6130C1BF" class="d-block w-100" alt="...">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="https://scontent.fuln2-1.fna.fbcdn.net/v/t1.6435-9/p960x960/201841660_163020062519419_8477204237125284261_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=36a2c1&_nc_ohc=3UVW9RshFu4AX9v_M9B&_nc_ht=scontent.fuln2-1.fna&oh=3a45fe31754413daaef917b409b03dd4&oe=612E2D39" class="d-block w-100" alt="...">
+    			</div>
+  			</div>
+ 			 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+   				 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="visually-hidden">Previous</span>
+  			</button>
+  			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   				 <span class="visually-hidden">Next</span>
+  			</button>
+		</div>
+		<footer class="row bg-dark">
+			<div class="text-center text-white" id="style">2021 он</div>
+		</footer>
+
+		
+		
+
+
+</body>
+</html>

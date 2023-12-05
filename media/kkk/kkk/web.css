@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+.word{
+	padding-top: 300px;
+	color: black;
+	font-size: 160px;
+	font-family: 'Qahiri', sans-serif;
+	text-align: center;
+
+}
+#body {
+	background-image: url(https://wallpaperaccess.com/full/1216828.jpg);
+	background-repeat: no-repeat;
+	
+}
+.navbar-brand{
+	margin-left: 150px;
+}
+#navbarNavAltMarkup{
+	font-size: 30px;
+	margin-right: 40px;
+	color: black;
+}
+
+}
+.morse{
+	font-size: 50px;
+}
+.row{
+	font-size: 500px;
+}
+#home{
+	height: 20vw;
+}
+#hi{
+	text-align: center;
+}
+.hi1{
+	background-color: #ab86bf;
+	height: 60vw;
+	
+}
+.wU{
+	
+	background-color: #7b548f ;
+	height: 50vw;
+	text-align: center;
+	background-repeat: no-repeat;
+
+}
+.DUW{
+	height: 500px;
+	text-align: center;
+	background-color: #643573;
+}
+#photo{
+	 margin-left: 100px;
+}
+#text1{
+	text-align: center;
+}
+
+
+<img src="https://i.imgur.com/BN21DoF.png" >
+			<img src="https://i.imgur.com/sZta6ig.png" style="float:right;">
+			<img src="https://i.imgur.com/bt2Lm04.png" style="float: inherit;">
+			<img src="https://i.imgur.com/phXrBq1.png">
+			<img src="https://i.imgur.com/ZXeZRCw.png">
+			<img src="https://i.kym-cdn.com/photos/images/original/001/148/345/eac.png">
+			<img src="https://cdn.browsercam.com/logos/com.andromo.dev637672.app743545-logo.png
+			"> 

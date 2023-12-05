@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Qahiri&family=Raleway:wght@800&family=Rubik:wght@500&display=swap');
+#back1{
+	background-image: url(https://img.freepik.com/free-vector/black-background-dark-wallpaper-with-diamond-perspective-pattern_1017-30294.jpg?size=626&ext=jpg&ga=GA1.2.931290938.1618963200);
+	height: 100vh;
+	background-size: cover;
+}
+#back2{
+	background-color: #28f7e3;
+}
+#style1{
+	color: #28f7e3;
+	font-size: 10vw;
+	font-family: 'Gugi', cursive;
+
+}
+#style2{
+	color: #28f7e3;
+	font-size: 8vw;
+	font-family: 'Gugi', cursive;
+}
+#style3{
+	font-size: 5vw;
+	font-family: 'Gugi', cursive;
+}
+#style4{
+	color: #28f7e3;
+	font-size: 3vw;
+}
+#style5{
+	font-family: 'Gugi', cursive;
+
+}
+#translator{
+	font-size: 4vw;
+}
+tr{
+	text-align: center;
+	
+}
